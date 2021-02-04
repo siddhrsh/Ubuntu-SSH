@@ -1,0 +1,5 @@
+ui_print("Realme C2 Stock Vendor");
+ui_print("        By Siddk      ");
+ui_print("Flashing vendor image ");
+package_extract_file("vendor.img", "/dev/block/platform/bootdevice/by-name/vendor");
+set_progress(1.000000);
